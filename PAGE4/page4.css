@@ -153,19 +153,7 @@ input:hover {
   font-family: "Montserrat";
   src: url("Montserrat-Regular.otf");
 }
-.topsite {
-  font-family: "Montserrat";
-  color: black;
-  font-size: 70px;
-  word-spacing: 5px;
-  text-align: center;
-}
-.connect {
-  font-family: "Montserra";
-  font-size: 30px;
-  margin-left: 50px;
-  color: black;
-}
+
 .fa-1x {
   font-size: 1.5rem;
 }
@@ -201,11 +189,7 @@ footer {
 footer p {
   margin: 0;
 }
-/*footer a {
-    color: rgb(80, 90, 100);
-    font-size: 1.8em;
-    text-align: center
-}*/
+
 .siteb a {
   color: white;
   font-size: 1.8em;
@@ -219,7 +203,6 @@ h1{
   text-align: center;
   font-family: policetitre;
   font-size: 5vw;
-  text-shadow: 2px 3px black;
 }
 
 #contact{
