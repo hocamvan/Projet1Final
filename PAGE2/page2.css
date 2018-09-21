@@ -1,0 +1,206 @@
+
+@font-face{
+    font-family: "policetexte";
+    src: url("police/Montserrat-Regular.otf");
+}
+
+
+@font-face{
+    font-family: "policetitre";
+    src: url("police/ColabLig.otf");
+}
+
+
+body{
+    font-family: policetexte;
+}
+
+nav{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2vw;
+    letter-spacing: 0.2em;
+    font-style: ;
+    margin-left: 10%;
+}
+
+h5{
+
+    font-weight: bold;
+    font-size: 3vw;
+    letter-spacing: 0.2em;
+    opacity: 0.8;
+}
+
+/*HEADER*/
+h1{
+    color: rgb(6, 47, 53);
+    text-align: center;
+    font-family: policetitre;
+    font-size: 5vw;
+    text-shadow: 2px 3px black;
+}
+
+#modal{
+    background-color: black
+}
+
+.nav-item a.active{
+    background-color: white;
+    color:black;
+}
+
+.nav-item a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.5vw;
+        transition: 1s;
+      }
+.cursor
+{
+    cursor: pointer;
+}
+
+.nav-item a:hover{
+    background-color: grey;
+}
+/*HEADER*/
+
+/*NAV SEARCH*/
+input[type=text]{
+    
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: none;
+    border-bottom: 1px solid grey;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+
+input[placeholder]{
+    font-size: 1.2vw;
+}
+
+#myUL, #myUL2{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a, #myUL2 li a{
+    border: 1px solid #ddd;
+    text-decoration: none;
+    padding: 15px 12px 15px 12px;
+    display: block;
+    color: black;
+    font-size: 1vw;
+    letter-spacing: 0.15em;
+    transition: 0.7s;
+    
+}
+
+#myUL li a:hover, #myUL2 li a:hover{
+    background-color: grey;
+}
+/*NAV SEARCH*/
+
+/*CARROUSEL*/
+#toureiffel, #arcdetriomphe, #notredame, #archedefense, #operagarnier, #louvre{
+    width: 80%;
+    margin: auto;
+}
+/*CARROUSEL*/
+
+/* ICONS*/
+.fa {
+    padding: 18px 35px 18px 25px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 25px;
+    border-radius: 50%;
+    transition:0.3s;
+  }
+
+.fa:hover {
+    opacity: 0.8;
+    transform: scale(0.9);
+    text-decoration:none;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.icons{
+    display:flex;
+    justify-content:center;
+}
+/* ICONS*/
+
+
+
+/*HEADER*/
+
+#modal{
+    background-color: black
+}
+
+.nav-item a.active{
+    background-color: white;
+    color:black;
+}
+
+.nav-item a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.5vw;
+        transition: 1s;
+      }
+.cursor
+{
+    cursor: pointer;
+}
+
+.nav-item a:hover{
+    background-color: grey;
+}
+/*HEADER*/
+

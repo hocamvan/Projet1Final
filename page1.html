@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="page1.css">
+    <title>Wildo Coda</title>
+</head>
+
+<body onclick="coordonne(event)">
+    <header class="header">
+        <div class="untruc">
+            <h1>Wildo Coda</h1>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" style="flex-grow:0;" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="active" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="PAGE2/page2.html" href="#">#Paris In Time</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="PAGE3/page3.html">Galerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="PAGE4/page4.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="zonephoto container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <img class="agrandit img-fluid" width="896" height="672" usemap="#map1" src="photoParis/pictoPlanFinal.png">
+                <map name="map1">
+                    <area class="monument" shape="rect" coords="268,141,315,194" data-toggle="modal" data-target="#Modal2">
+                    <area class="monument" shape="rect" coords="369,85,434,123" data-toggle="modal" data-target="#Modal5">
+                    <area class="monument" shape="rect" coords="156,126,196,168" data-toggle="modal" data-target="#Modal6">
+                    <area class="monument" shape="rect" coords="383,217,459,259" data-toggle="modal" data-target="#Modal1">
+                    <area class="monument" shape="rect" coords="261,214,308,289" data-toggle="modal" data-target="#Modal3">
+                    <area class="monument" shape="rect" coords="410,305,459,351" data-toggle="modal" data-target="#Modal4">
+
+                </map>
+            </div>
+        </div>
+        <div class="modal fade" id="Modal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Louvre</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="photoParis/louvre.gif" alt="louvre1">
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="PAGE2/page2.html#louvrepast">Louvre</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Modal2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Arc de Triomphe </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="photoParis/arc.gif" alt="Arc">
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="PAGE2/page2.html#arcdetriomphepast">Arc de triomphe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Modal3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Tour Eiffel</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="photoParis/eiffel.gif" alt="eiffel">
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="PAGE2/page2.html#toureiffelpast">Tour Eiffel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Modal4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Panthéon</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="photoParis/pantheon.jpeg" alt="pantheon">
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="#">Passé</a>
+                        <a href="#">Présent</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Modal5">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Sacré Coeur</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="photoParis/Sacre-Coeur.jpg" alt="pantheon">
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="#">Passé</a>
+                        <a href="#">Présent</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Modal6">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Grande Arche</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="photoParis/grandeArche.jpg" alt="grandeArche">
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="PAGE2/page2.html#archedeladefensepast">Arche de la défense</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="icons bg-secondary mt-5">
+            <a href="https://fr-fr.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/?lang=fr" class="fa fa-twitter"></a>
+            <a href="https://plus.google.com/discover" class="fa fa-google"></a>
+            <a href="https://fr.linkedin.com/" class="fa fa-linkedin"></a>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/bootstrap.native/1.0.4/bootstrap-native.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="jquery.rwdImageMaps.js"></script>
+    <script src="page1.js"></script>
+    <script>$('img[usemap]').rwdImageMaps();</script>
+
+</body>

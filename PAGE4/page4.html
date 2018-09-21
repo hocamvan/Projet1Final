@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- BOOTSTRAP CSS ETC-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="page4.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wildo Coda</title>
+
+</head>
+
+<body>
+
+
+    <!--nav bar-->
+    <header class="header">
+        <div class="untruc">
+            <h1 class="titreheader">Wildo Coda</h1>
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" style="flex-grow:0;" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="../PAGE1/page1.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../PAGE2/page2.html">#Paris In Time</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../PAGE3/page3.html">Galerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <h1 id="contact">Photographe</h1>
+
+    <!-- contenu du site-->
+    <div class="container-fluid-no gutters">
+        <div class="row">
+            <div class="bloc1 col-xl-5 col-md-6">
+
+                <img id='photograph' src="photograph.jpg" alt="autoportrait" class="img-fluid untruc">
+
+
+            </div>
+            <div class="bloc2 col-xl-7 col-md-6">
+                <p>Né en 1949, je m'essaie à la photographie dans les années 1960... premier labo N&B au collège !
+
+                    Une révélation!!
+
+                    Pour moi, la photographie me permet alors de m'évader, d'observer et de décrire l'instant fugace au
+                    travers de ma sensibilité et mon propre imaginaire parfois.
+
+                    Puis j'ai pu découvrir et partager au sein du Photo club de l'Agenais dans les années 1990-1995 des
+                    itinéraires et des regards différents avec d'autres passionnés de l'argentique, animant aussi des
+                    ateliers N&B. </p>
+            </div>
+        </div>
+    </div>
+    <div id=titre2>
+        <h2>Rester en contact...</h2>
+    </div>
+    <div class="row">
+
+        <div class="bloc3 col-xl-5 col-lg-8 col-md-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.479197102474!2d2.3504113159929707!3d48.849071979286585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e4f9ed9097%3A0x21f0557e9b283397!2sWild+Code+School+-+Formation+d%C3%A9veloppeur+web!5e0!3m2!1sfr!2sfr!4v1537348389630"
+                id="map" class="img_responsive"></iframe>
+
+        </div>
+
+        <div class="bloc4 col-xl-7 col-lg-4 col-md-12">
+
+            <!-- Formulaire -->
+            <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
+            <section>
+                <h3>Pour m'écrire</h3>
+                <form id="formulaire-responsive" class="clearfix">
+                    <input id="name" type="text" placeholder="Nom Prénom">
+                    <input id="email" type="text" placeholder="Email">
+                    <textarea id="message" type="text" placeholder="Votre message"></textarea>
+                    <input id="submit" onClick="thankYou()" type="submit" value="Envoyer">
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <br/>
+<!-- Footer -->
+<footer>
+    <div class="icons bg-secondary mt-5 h-25">
+    <a href="https://fr-fr.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/?lang=fr" class="fa fa-twitter"></a>
+    <a href="https://plus.google.com/discover" class="fa fa-google"></a>
+    <a href="https://fr.linkedin.com/" class="fa fa-linkedin"></a>
+    </div>
+</footer>
+  <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+

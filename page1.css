@@ -1,0 +1,217 @@
+@font-face{
+    font-family: "policetexte";
+    src: url("police/Montserrat-Regular.otf");
+}
+
+
+@font-face{
+    font-family: "policetitre";
+    src: url("police/ColabLig.otf");
+}
+/*HEADER*/
+body{
+    font-family: policetexte;
+}
+h1{
+    color:rgb(6, 47, 53);
+    text-align: center;
+    font-family: policetitre;
+    font-size: 5vw;
+    text-shadow: 2px 3px black;
+}
+
+#modal{
+    background-color: black
+}
+
+.nav-item a.active{
+    background-color: white;
+    color:black;
+}
+
+.nav-item a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.5vw;
+        transition: 1s;
+      }
+.cursor
+{
+    cursor: pointer;
+}
+
+.nav-item a:hover{
+    background-color: grey;
+}
+/*HEADER*/
+
+/* ICONS*/
+.fa {
+    padding: 18px 40px 18px 25px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 25px;
+    border-radius: 50%;
+    transition:0.3s;
+  }
+
+.fa:hover {
+    opacity: 0.8;
+    transform: scale(0.9);
+    text-decoration:none;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.icons{
+    display:flex;
+    justify-content:center;
+}
+/* ICONS*/
+
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: rgb(57, 57, 59);
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+.commentaire
+{
+    text-align:justify;
+    font-family: "ColabLig";
+    font-size: 20px;
+}
+.smallPhoto
+{
+    width: 430px;
+    height: 350px;
+}
+.bigPhoto
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.anyClass {
+    height: 280px;
+    overflow-y: scroll;
+  }
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+.voirArticle
+{
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+    font-size: 1.5em;
+}
+.img-fluid
+{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+  .bg-primary {
+   background-color: rgb(65, 62, 62) !important;
+  }
+  footer {
+      margin-top:20px ;
+      height: auto;
+      padding-bottom: 30px;
+      position: relative;
+      width: 100%;
+      border-bottom: 1px solid #CCCCCC;
+      border-top: 1px solid #DDDDDD;
+  }
+  footer p {
+      margin: 0;
+
+  }
+  .siteb a {
+    color: rgb(235, 228, 228);
+    font-size: 1.6em;
+    text-align: center
+  }
+.commentaire
+{
+    text-align:justify;
+    font-family: "ColabLig";
+    font-size: 20px;
+}
+/*.smallPhoto
+{
+    width: 430px;
+    height: 350px;
+}*/
+.bigPhoto
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.anyClass {
+    height: 280px;
+    overflow-y: scroll;
+  }
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+.voirArticle
+{
+    position: relative;
+    bottom: 8px;
+    left: 16px;
+    font-size: 1.5em;
+}
+.img-fluid
+{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.agrandit
+{ max-width: 100%;
+}
+/*Modal*/
+.modal-footer a {
+    color: black;
+}
+

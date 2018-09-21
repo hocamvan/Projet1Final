@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wildo Coda</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="untruc">
+            <h1>Wildo Coda</h1>
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" style="flex-grow:0;" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="../PAGE1/page1.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="active" href="#">#Paris In Time</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../PAGE3/page3.html">Galerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../PAGE4/page4.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <input type="text" id="myInput" onkeyup=myFunction() name="search" placeholder="Search Monuments ...">
+    <nav>
+        <ul id="myUL">
+            <li><a href="#titrearcdetriomphe">ARC DE TRIOMPHE</a></li>
+            <li><a href="#titrenotredame">NOTRE DAME</a></li>
+            <li><a href="#titretoureiffel">TOUR EIFFEL</a></li>
+            <li><a href="#titrearcdetriomphe">HÔTEL DE VILLE</a></li>
+            <li><a href="#titrenotredame">JARDIN DES PLANTES </a></li>
+            <li><a href="#titretoureiffel">PALAIS DE L'ÉLYSÉE</a></li>
+            <li><a href="#titrearcdetriomphe">PLACE DE LA CONCORDE</a></li>
+            <li><a href="#titretoureiffel">CANAL SAINT MARTIN</a></li>
+        </ul>
+        <ul id="myUL2">
+            <li><a href="#titreoperagarnier">OPÉRA GARNIER</a></li>
+            <li><a href="#titrelouvre">MUSÉE DU LOUVRE</a></li>
+            <li><a href="#titrearchedefense">ARCHE DE LA DÉFENSE</a></li>
+            <li><a href="#titrearcdetriomphe">MUSÉE D'ORSAY</a></li>
+            <li><a href="#titrenotredame">EGLISE SAINT SULPICE</a></li>
+            <li><a href="#titretoureiffel">TOUR MONTPARNASSE</a></li>
+            <li><a href="#titrearcdetriomphe">MOULIN ROUGE</a></li>
+            <li><a href="#titretoureiffel">PONT DES ARTS</a></li>
+        </ul>
+    </nav>
+
+    <h2 id=titretoureiffel>Tour Eiffel</h2>
+    <div id="toureiffel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" id="toureiffelpast" src="photos/toureiffel/tourpast.jpeg" alt="First slide">
+                <div class="carousel-caption d-block">
+                    <h5>Past</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" id="toureiffelpresent" src="photos/toureiffel/tourpresent.jpeg" alt="Second slide">
+                <div class="carousel-caption d-block">
+                    <h5>Present</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#toureiffel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#toureiffel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br />
+    <hr>
+    <br />
+
+    <h2 id="titrearcdetriomphe">Arc de Triomphe</h2>
+    <div id="arcdetriomphe" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" id="arcdetriomphepast" src="photos/arcdetriomphe/arcdetriomphepast.jpeg" alt="First slide">
+                <div class="carousel-caption d-block">
+                    <h5>Past</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" id="arcdetriomphepresent" src="photos/arcdetriomphe/arcdetriomphepresent.jpeg" alt="Second slide">
+                <div class="carousel-caption d-block">
+                    <h5>Present</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#arcdetriomphe" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#arcdetriomphe" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br />
+    <hr>
+    <br />
+
+    <h2 id="titrenotredame">Notre Dame</h2>
+    <div id="notredame" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="photos/notredame/notredamepast.jpeg" alt="First slide">
+                <div class="carousel-caption d-block">
+                    <h5>Past</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="photos/notredame/notredamepresent.jpeg" alt="Second slide">
+                <div class="carousel-caption d-block">
+                    <h5>Present</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#notredame" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#notredame" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br />
+    <hr>
+    <br />
+
+    <h2 id="titrearchedefense">Arche de la Défense</h2>
+    <div id="archedefense" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" id="archedeladefensepast" src="photos/archedefense/archedefensepast.jpg" alt="First slide">
+                <div class="carousel-caption d-block">
+                    <h5>Past</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" id="archedeladefensepresent" src="photos/archedefense/archedefensepresent.jpg" alt="Second slide">
+                <div class="carousel-caption d-block">
+                    <h5>Present</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#archedefense" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#archedefense" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br />
+    <hr>
+    <br />
+
+    <h2 id="titreoperagarnier">Opéra Garnier</h2>
+    <div id="operagarnier" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="photos/operagarnier/operagarnierpast.jpeg" alt="First slide">
+                <div class="carousel-caption d-block">
+                    <h5>Past</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="photos/operagarnier/operagarnierpresent.jpeg" alt="Second slide">
+                <div class="carousel-caption d-block">
+                    <h5>Present</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#operagarnier" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#operagarnier" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br />
+    <hr>
+    <br />
+
+    <h2 id="titrelouvre">Musée du Louvre</h2>
+    <div id="louvre" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" id="louvrepast" src="photos/louvre/louvrepast.jpg" alt="First slide">
+                <div class="carousel-caption d-block">
+                    <h5>Past</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" id="louvrepresent" src="photos/louvre/louvrepresent.jpg" alt="Second slide">
+                <div class="carousel-caption d-block">
+                    <h5>Present</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#louvre" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#louvre" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br />
+    
+
+<!-- Footer -->
+<footer>
+    <div class="icons bg-secondary mt-5">
+    <a href="https://fr-fr.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/?lang=fr" class="fa fa-twitter"></a>
+    <a href="https://plus.google.com/discover" class="fa fa-google"></a>
+    <a href="https://fr.linkedin.com/" class="fa fa-linkedin"></a>
+    </div>
+</footer>
+  <!-- Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="page2.js"></script>
+</body>
+
+</html>
